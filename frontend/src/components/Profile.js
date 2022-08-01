@@ -95,7 +95,7 @@ class Profile extends React.Component {
         <li className="nav-item">
           <Link
             className="nav-link active"
-            to={`/@${this.props.profile.username}`}
+            to={this.props.profile.username ? `/@${this.props.profile.username}` : "/"}
           >
             My Items
           </Link>
