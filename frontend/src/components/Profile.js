@@ -124,7 +124,10 @@ class Profile extends React.Component {
       this.props.profile.username === this.props.currentUser.username;
 
     return (
-      <div className="profile-page">
+      <div
+        className="profile-page"
+        style={{ maxWidth: document.documentElement.clientWidth }}
+      >
         <div className="container">
           <div className="row p-4 text-center">
             <div className="user-info col-xs-12 col-md-8 offset-md-2">

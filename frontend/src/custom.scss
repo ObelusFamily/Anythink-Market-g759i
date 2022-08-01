@@ -58,8 +58,4 @@ body {
 
 .user-info {
   min-width: 800px;
-
-  @media (max-width: 500px) {
-    max-width: 414px;
-  }
 }
