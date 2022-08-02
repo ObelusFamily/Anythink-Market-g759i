@@ -130,7 +130,10 @@ class Profile extends React.Component {
       >
         <div className="container">
           <div className="row p-4 text-center">
-            <div className="user-info col-xs-12 col-md-8 offset-md-2">
+            <div
+              className="user-info col-xs-12 col-md-8 offset-md-2"
+              style={{ maxWidth: document.documentElement.clientWidth, minWidth: '0px' }}
+            >
               <img
                 src={profile.image}
                 className="user-img"
